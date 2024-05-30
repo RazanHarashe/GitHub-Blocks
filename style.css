@@ -1,0 +1,44 @@
+.container{
+    width: 800px;
+    background-color: rgb(235, 232, 232);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-nav h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.sub-content1,.sub-content2,.sub-content3 {
+    display: flex;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.sub-content1{
+    background-color: cornflowerblue; 
+    justify-content:space-between;
+}
+
+.sub-content2{
+    background-color: pink; 
+    justify-content:center;
+}
+
+.sub-content3{
+    background-color: white; 
+    justify-content:space-between;
+}
+
+img{
+    margin:0 10px;
+}
+
+.git{
+    font-family: sans-serif;
+    text-align: center;
+}
